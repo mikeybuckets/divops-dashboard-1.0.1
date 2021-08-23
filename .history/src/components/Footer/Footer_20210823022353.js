@@ -32,8 +32,8 @@ function Footer() {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href='https://divoperations.com/resources'>
-              Resources
+            <NavLink href='https://www.creative-tim.com/presentation?ref=bdr-user-archive-footer'>
+              Docs
             </NavLink>
           </NavItem>
           <NavItem>

@@ -61,7 +61,7 @@ var routes = [
     path: "/user-profile",
     name: "User Profile",
     rtlName: "ملف تعريفي للمستخدم",
-    icon: "tim-icons icon-chart-bar-32",
+    icon: "tim-icons icon-molecule-40",
     component: UserProfile,
     layout: "/admin",
   },
