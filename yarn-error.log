@@ -1,0 +1,76 @@
+Arguments: 
+  C:\Users\MC\node.exe C:\Users\MC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-helmet
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\MC\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\MC\AppData\Local\Microsoft\WindowsApps;C:\Users\MC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MC\AppData\Roaming\npm;C:\Users\MC\AppData\Local\Programs\Hyper\resources\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\MC\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\MC\Desktop\Builds\divops-dashboard-1.0.1\node_modules\node-sass\vendor\win32-x64-83\binding.node'
+
+npm manifest: 
+  {
+    "name": "black-dashboard-react",
+    "version": "1.2.0",
+    "private": true,
+    "homepage": "https://demos.creative-tim.com/black-dashboard-react/#/admin/dashboard",
+    "dependencies": {
+      "@fortawesome/fontawesome-free": "5.15.1",
+      "bootstrap": "4.5.3",
+      "chart.js": "2.9.4",
+      "classnames": "2.2.6",
+      "node-sass": "4.14.1",
+      "node-sass-package-importer": "5.3.2",
+      "perfect-scrollbar": "1.5.0",
+      "prop-types": "15.7.2",
+      "react": "17.0.1",
+      "react-chartjs-2": "2.11.1",
+      "react-dom": "17.0.1",
+      "react-notification-alert": "0.0.13",
+      "react-router-dom": "5.2.0",
+      "react-scripts": "4.0.1",
+      "reactstrap": "8.7.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build && gulp licenses",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject",
+      "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+      "compile-scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.css",
+      "minify-scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.min.css --output-style compressed",
+      "map-scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.css --source-map true"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "optionalDependencies": {
+      "eslint-plugin-flowtype": "5.2.0",
+      "jquery": "3.5.1",
+      "typescript": "4.1.2"
+    },
+    "devDependencies": {
+      "gulp": "4.0.2",
+      "gulp-append-prepend": "1.0.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
