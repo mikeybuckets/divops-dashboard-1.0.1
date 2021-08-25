@@ -12,7 +12,7 @@ var routes = [
   {
     path: "/divops-dashboard",
     name: "Divops Dashboard",
-    rtlName: "لحة القيادة",
+    rtlName: "لوjحة القيادة",
     icon: "tim-icons icon-bullet-list-67",
     component: DivOpsDashboard,
     layout: "/admin",

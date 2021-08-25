@@ -39,6 +39,7 @@ function DivOpsDashboard(props) {
   };
   return (
     <>
+      <div>
       <div className='content'>
         <Row>
           <Col xs='12'>

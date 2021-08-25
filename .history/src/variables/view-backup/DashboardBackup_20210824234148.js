@@ -32,7 +32,7 @@ import {
   chartExample4,
 } from "variables/charts.js";
 
-function DivOpsDashboard(props) {
+function Dashboard(props) {
   const [bigChartData, setbigChartData] = React.useState("data1");
   const setBgChartData = (name) => {
     setbigChartData(name);
@@ -68,7 +68,7 @@ function DivOpsDashboard(props) {
                           A
                         </span>
                         <span className='d-block d-sm-none'>
-                          <i className='tim-icons icon-single-02' />
+                          <i className='mike-icons icon-single-02' />
                         </span>
                       </Button>
                       <Button
@@ -85,7 +85,7 @@ function DivOpsDashboard(props) {
                           MX
                         </span>
                         <span className='d-block d-sm-none'>
-                          <i className='tim-icons icon-gift-2' />
+                          <i className='mike-icons icon-gift-2' />
                         </span>
                       </Button>
                       <Button
@@ -102,7 +102,7 @@ function DivOpsDashboard(props) {
                           TXT
                         </span>
                         <span className='d-block d-sm-none'>
-                          <i className='tim-icons icon-tap-02' />
+                          <i className='mike-icons icon-tap-02' />
                         </span>
                       </Button>
                     </ButtonGroup>
@@ -126,7 +126,7 @@ function DivOpsDashboard(props) {
               <CardHeader>
                 <h5 className='card-category'>Total Shipments</h5>
                 <CardTitle tag='h3'>
-                  <i className='tim-icons icon-bell-55 text-info' /> 763,215
+                  <i className='mike-icons icon-bell-55 text-info' /> 763,215
                 </CardTitle>
               </CardHeader>
               <CardBody>
@@ -144,7 +144,7 @@ function DivOpsDashboard(props) {
               <CardHeader>
                 <h5 className='card-category'>Daily Sales</h5>
                 <CardTitle tag='h3'>
-                  <i className='tim-icons icon-delivery-fast text-primary' />{" "}
+                  <i className='mike-icons icon-delivery-fast text-primary' />{" "}
                   3,500€
                 </CardTitle>
               </CardHeader>
@@ -163,7 +163,7 @@ function DivOpsDashboard(props) {
               <CardHeader>
                 <h5 className='card-category'>Completed Tasks</h5>
                 <CardTitle tag='h3'>
-                  <i className='tim-icons icon-send text-success' /> 12,100K
+                  <i className='mike-icons icon-send text-success' /> 12,100K
                 </CardTitle>
               </CardHeader>
               <CardBody>
@@ -191,7 +191,7 @@ function DivOpsDashboard(props) {
                     data-toggle='dropdown'
                     type='button'
                   >
-                    <i className='tim-icons icon-settings-gear-63' />
+                    <i className='mike-icons icon-settings-gear-63' />
                   </DropdownToggle>
                   <DropdownMenu aria-labelledby='dropdownMenuLink' right>
                     <DropdownItem
@@ -231,7 +231,7 @@ function DivOpsDashboard(props) {
                           </FormGroup>
                         </td>
                         <td>
-                          <p className='title'>Update the Documentation</p>
+                          <p className='title'>Point DNS</p>
                           <p className='text-muted'>
                             Dwuamish Head, Seattle, WA 8:47 AM
                           </p>
@@ -243,7 +243,7 @@ function DivOpsDashboard(props) {
                             title=''
                             type='button'
                           >
-                            <i className='tim-icons icon-pencil' />
+                            <i className='mike-icons icon-pencil' />
                           </Button>
                           <UncontrolledTooltip
                             delay={0}
@@ -285,7 +285,7 @@ function DivOpsDashboard(props) {
                             title=''
                             type='button'
                           >
-                            <i className='tim-icons icon-pencil' />
+                            <i className='mike-icons icon-pencil' />
                           </Button>
                           <UncontrolledTooltip
                             delay={0}
@@ -321,7 +321,7 @@ function DivOpsDashboard(props) {
                             title=''
                             type='button'
                           >
-                            <i className='tim-icons icon-pencil' />
+                            <i className='mike-icons icon-pencil' />
                           </Button>
                           <UncontrolledTooltip
                             delay={0}
@@ -356,7 +356,7 @@ function DivOpsDashboard(props) {
                             title=''
                             type='button'
                           >
-                            <i className='tim-icons icon-pencil' />
+                            <i className='mike-icons icon-pencil' />
                           </Button>
                           <UncontrolledTooltip
                             delay={0}
@@ -393,7 +393,7 @@ function DivOpsDashboard(props) {
                             title=''
                             type='button'
                           >
-                            <i className='tim-icons icon-pencil' />
+                            <i className='mike-icons icon-pencil' />
                           </Button>
                           <UncontrolledTooltip
                             delay={0}
@@ -428,7 +428,7 @@ function DivOpsDashboard(props) {
                             title=''
                             type='button'
                           >
-                            <i className='tim-icons icon-pencil' />
+                            <i className='mike-icons icon-pencil' />
                           </Button>
                           <UncontrolledTooltip
                             delay={0}
@@ -514,4 +514,4 @@ function DivOpsDashboard(props) {
   );
 }
 
-export default DivOpsDashboard;
+export default Dashboard;

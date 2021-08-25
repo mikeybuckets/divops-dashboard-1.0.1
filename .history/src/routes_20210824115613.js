@@ -1,4 +1,3 @@
-import DivOpsDashboard from "views/DivOpsDashboard.js";
 import Dashboard from "views/Dashboard.js";
 import Icons from "views/Icons.js";
 import Map from "views/Map.js";
@@ -12,9 +11,9 @@ var routes = [
   {
     path: "/divops-dashboard",
     name: "Divops Dashboard",
-    rtlName: "لحة القيادة",
+    rtlName: "لوحة القيادة",
     icon: "tim-icons icon-bullet-list-67",
-    component: DivOpsDashboard,
+    component: Dashboard,
     layout: "/admin",
   },
   {

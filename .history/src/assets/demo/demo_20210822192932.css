@@ -4,22 +4,22 @@
 * Black Dashboard React v1.2.0
 =========================================================
 
-* Product Page: https://www.creative-mike.com/product/black-dashboard-react
-* Copyright 2020 Creative mike (https://www.creative-mike.com)
-* Licensed under MIT (https://github.com/creativemikeofficial/black-dashboard-react/blob/master/LICENSE.md)
+* Product Page: https://www.creative-tim.com/product/black-dashboard-react
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md)
 
-* Coded by Creative mike
+* Coded by Creative Tim
 
 =========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-.mike-row {
+.tim-row {
   margin-bottom: 20px;
 }
 
-.mike-white-buttons {
+.tim-white-buttons {
   background-color: #777777;
 }
 
@@ -44,11 +44,11 @@
   text-transform: none;
 }
 
-.mike-row {
+.tim-row {
   padding-top: 60px;
 }
 
-.mike-row h3 {
+.tim-row h3 {
   margin-top: 0;
 }
 
